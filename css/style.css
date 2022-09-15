@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -129,22 +130,29 @@ img {
  ************************************************/
 
 @media screen and (max-width: 768px) {
-    .container{
+    .container {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
+
     .lessons .row,
     .steps .row,
-    .why-us .row{
+    .why-us .row {
         flex-direction: column;
         align-items: center;
     }
 
     .lessons .col,
     .steps .col,
-    .why-us .col{
+    .why-us .col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .container {
         width: 100%;
     }
 }
